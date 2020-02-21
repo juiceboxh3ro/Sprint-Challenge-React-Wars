@@ -14,7 +14,7 @@ export default function CharacterList() {
     }
   }
   const pageBackward = () => {
-    if(page < 1) {
+    if(page <= 9 && page > 1) {
       setPage(page - 1);
     }
   }
@@ -37,7 +37,7 @@ export default function CharacterList() {
 
   return (
     <div>
-      <Header2>Star Wars Characters Page {page}</Header2>
+      <Header2>React Wars Characters: Page {page}</Header2>
       <ButtonHolder class="buttons">
         <PageButtons onClick={pageBackward}>Back</PageButtons>
         <PageButtons onClick={pageForward}>Next</PageButtons>

@@ -1,20 +1,32 @@
 import styled from "styled-components";
 
+const spacegray = "#dfe6e9";
+const grayshadow = "#cdd4da";
+const darkgray= "#2d3436"
+
 // to Character Card
 export const CardContainer = styled.div`
   box-sizing: border-box;
-  background: #dfe6e9;
+  background: ${spacegray};
   width: 45%;
   height: 300px;
   margin: 20px;
   border-radius: 3px;
-  box-shadow: 5px -5px #cdd4da;
+  box-shadow: 5px -5px ${grayshadow};
+  font-family: 'Tomorrow', sans-serif;
+  font-size: 2rem;
 `;
 
 export const CardName = styled.h2`
   padding: 0 5px 10px;
   margin-bottom: 50px;
-  border-bottom: 2px solid #2d3436;
+  border-bottom: 2px solid ${darkgray};
+  font-family: 'Trade Winds', sans-serif;
+  font-size: 1.4rem;
+`;
+
+export const MinorInfo = styled.div`
+  font-size: 1rem;
 `;
 
 // to Character List
@@ -40,10 +52,24 @@ export const PageButtons = styled.button`
   width: 150px;
   height: 30px;
   border: none;
-  background: #dfe6e9;
+  background: ${spacegray};
   border-radius: 3px;
+  font-size: 0.8rem;
+  font-family: 'Tomorrow', sans-serif;
+  transition: 0.3s ease;
+
+  &:hover {
+    cursor: pointer;
+    background: ${darkgray};
+    color: ${spacegray};
+    text-align: left;
+    transform: scale(1.05);
+  }
 `;
 
 export const Header2 = styled.h2`
   margin: 50px auto;
+  font-family: 'Trade Winds', sans-serif;
+  font-size: 2.8rem;
+  text-shadow: 2px 2px 5px ${spacegray};
 `;
