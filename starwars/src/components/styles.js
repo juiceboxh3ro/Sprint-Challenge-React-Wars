@@ -8,7 +8,7 @@ export const CardContainer = styled.div`
   height: 300px;
   margin: 20px;
   border-radius: 3px;
-  box-shadow: 5px -5px #b2bec3;
+  box-shadow: 5px -5px #cdd4da;
 `;
 
 export const CardName = styled.h2`

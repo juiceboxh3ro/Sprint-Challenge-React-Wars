@@ -26,9 +26,12 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
-	React JS is a JavaScript library created by Facebook. It allows us to rerender content dynamically and hook onto the render effect to create powerful UIs, as well as simplifying the component creation process.
+	React JS is a JavaScript library created by Facebook. It allows us to rerender content quickly and dynamically without page reloads, and hook onto the render effect to create powerful UIs, as well as simplifying the component creation process.
 
 - [ ] What does it mean to _think_ in react?
+
+	I suppose this would be being mindful of the parent-child relationships established in our components, and the flow of data that comes with that.
+	It would also be thinking about ways to break components down into modular pieces to keep the code looking clean and DRY.
 
 - [ ] Describe state.
 
