@@ -25,7 +25,6 @@ export default function CharacterList() {
     fetch(`https://swapi.co/api/people/?page=${page}`)
     .then(response => response.json())
     .then(res => {
-      console.log(res);
       setData(res.results);
     })
     .catch(err => console.log("There was a problem fetching data from the API", err))

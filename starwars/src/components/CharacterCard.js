@@ -18,6 +18,7 @@ const CharacterCard = (props) => {
         <p>Born: {props.data.birth_year}</p>
         <p>Gender: {props.data.gender}</p>
         <p>Hair color: {props.data.hair_color}</p>
+        <p>Skin color: {props.data.skin_color}</p>
         <p>{props.data.height} cm</p>
         <p>{props.data.mass} kg</p>
       </MinorInfo>
