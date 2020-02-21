@@ -30,7 +30,7 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What does it mean to _think_ in react?
 
-	I suppose this would be being mindful of the parent-child relationships established in our components, and the flow of data that comes with that.
+	I suppose this would be being mindful of the parent-child relationships established in our components, the flow of data that comes with that, and state.
 	It would also be thinking about ways to break components down into modular pieces to keep the code looking clean and DRY.
 
 - [ ] Describe state.
