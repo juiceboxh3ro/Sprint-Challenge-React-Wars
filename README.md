@@ -26,13 +26,21 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+	React JS is a JavaScript library created by Facebook. It allows us to rerender content dynamically and hook onto the render effect to create powerful UIs, as well as simplifying the component creation process.
+
 - [ ] What does it mean to _think_ in react?
 
 - [ ] Describe state.
 
+	State is the current status of the component. For example, a component could be hidden and toggled on.
+
 - [ ] Describe props.
 
+	Props are data passed from a parent component to a child component. Taking today for example, we've passed an array containing Star Wars characters from a parent component down to the individual card child component.
+
 - [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?
+
+	Side effects are events from the rendering process. We can hook onto these and sync them with useEffect.
 
 ## Project Set Up
 
@@ -79,7 +87,7 @@ Your finished project must include all of the following requirements:
 It is better to submit a challenge that meets [MVP](https://en.wikipedia.org/wiki/Minimum_viable_product) than one that attempts too much and fails.
 
 ## Stretch Problems
-- [ ] Next week we will be looking at React forms. Look a head and try to create a search form that will filter through the data displayed from your characters. 
+- [ ] Next week we will be looking at React forms. Look ahead and try to create a search form that will filter through the data displayed from your characters. 
 
 - [ ] Build a pagination system that will allow you to load the next page of data.
   - `console.log()` the data coming back from the server.
