@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import CharacterCard from "./CharacterCard";
-import { DeckContainer, ButtonHolder, PageButtons, Header2 } from "./styles"
+import { DeckContainer, ButtonHolder, PageButtons, Header2, PseudoButton } from "./styles"
 
 // This is the parent component
 
@@ -37,7 +37,7 @@ export default function CharacterList() {
 
   return (
     <div>
-      <Header2>React Wars Characters: Page {page}</Header2>
+      <Header2>React Wars<br />Characters: Page {page}</Header2>
       <ButtonHolder class="buttons">
         <PageButtons onClick={pageBackward}>Back</PageButtons>
         <PageButtons onClick={pageForward}>Next</PageButtons>
@@ -51,6 +51,9 @@ export default function CharacterList() {
           return <CharacterCard data={item}/>
         })}
       </DeckContainer>
+      <ButtonHolder>
+        <PseudoButton href="#">Top</PseudoButton>
+      </ButtonHolder>
     </div>
   )
 }

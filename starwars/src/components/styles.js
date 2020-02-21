@@ -67,6 +67,30 @@ export const PageButtons = styled.button`
   }
 `;
 
+export const PseudoButton = styled.a`
+  text-decoration: none;
+  color: ${darkgray};
+  text-align: center;
+  width: 150px;
+  height: 30px;
+  border: none;
+  padding-top: 12px;
+  padding-left: 6px;
+  background: ${spacegray};
+  border-radius: 3px;
+  font-size: 0.8rem;
+  font-family: 'Tomorrow', sans-serif;
+  transition: 0.3s ease;
+
+  &:hover {
+    cursor: pointer;
+    background: ${darkgray};
+    color: ${spacegray};
+    text-align: left;
+    transform: scale(1.05);
+  }
+`;
+
 export const Header2 = styled.h2`
   margin: 50px auto;
   font-family: 'Trade Winds', sans-serif;
