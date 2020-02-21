@@ -12,7 +12,7 @@ export const CardContainer = styled.div`
   height: 300px;
   margin: 20px;
   border-radius: 3px;
-  box-shadow: 5px -5px ${grayshadow};
+  box-shadow: 5px -5px 15px ${grayshadow};
   font-family: 'Tomorrow', sans-serif;
   font-size: 2rem;
 `;
