@@ -38,11 +38,11 @@ export default function CharacterList() {
   return (
     <div>
       <Header2>React Wars<br />Characters: Page {page}</Header2>
-      <ButtonHolder class="buttons">
+      <ButtonHolder className="buttons">
         <PageButtons onClick={pageBackward}>Back</PageButtons>
         <PageButtons onClick={pageForward}>Next</PageButtons>
       </ButtonHolder>
-      <ButtonHolder class="buttons">
+      <ButtonHolder className="buttons">
         <PageButtons onClick={pageInitial}>Start Over</PageButtons>
         <PageButtons onClick={pageFinal}>Jump to End</PageButtons>
       </ButtonHolder>
